@@ -7,9 +7,7 @@ What I learned :
 - adding event listeners
     - `addEventListener('type',function)`
 - how to use mp3 in JavaScript & play it on key press
-    - <code>let musicName = new Audio('audioFile-path');
-    <br>
-    ‎ musicName.play();</code>
+    - `let musicName = new Audio('audioFile-path');` then,‎ `musicName.play();`
     
 - add and remove HTML classes using JavaScript (also, pre-define CSS for new className)
     - `document.querySelector('selectorName').classList.add('className')`
