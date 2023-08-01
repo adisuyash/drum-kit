@@ -1,19 +1,14 @@
 // Determining Button press
-let numberOfDrums = document.querySelectorAll(".drums").length;
+let numberOfDrums = $(".drums").length;
 for (let i = 0; i < numberOfDrums; i++) {
-    document.querySelectorAll(".drums")[i].addEventListener("click", function () {
+    $(".drums")[i].addEventListener("click", function () {
         let buttonInnerHTML = this.innerHTML; // it stores 'w a s d j k l' , which is clicked 
         makeSound(buttonInnerHTML);
         buttonAnimation(buttonInnerHTML);
     });
-
 }
-
 // Determining Keyboard press
-document.addEventListener("keypress", function (event) {
-
-    // console.log(event) - // to display Keypress Event and then accessing the keypress by event.key 
-
+$(document).keypress(function (event) {
     makeSound(event.key);
     buttonAnimation(event.key);
 })
