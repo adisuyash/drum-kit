@@ -2,6 +2,7 @@
 live: https://adisuyash.github.io/drum-kit/
 
 Use keyboard keys to produce pleasant music 🎷
+<img width="960" alt="image" src="https://github.com/adisuyash/drum-kit/assets/116362593/c8b8fc5c-25a3-436f-b857-8c05d364b15a">
 
 What I learned :
 - adding event listeners
